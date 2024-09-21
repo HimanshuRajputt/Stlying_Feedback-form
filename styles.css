@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: radial-gradient(circle, purple, red);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+.feedback-form h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: black;
+}
+
+.feedback-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: black;
+}
+
+.feedback-form select,
+.feedback-form textarea,
+.feedback-form input[type="text"],
+.feedback-form input[type="email"],
+.feedback-form input[type="password"],
+.feedback-form input[type="url"],
+.feedback-form input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.rating-options {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.rating-options input {
+    margin-right: 5px;
+}
+
+.feedback-form .terms {
+    margin-bottom: 10px;
+}
+
+.feedback-form .terms input {
+    margin-right: 5px;
+}
+
+.feedback-form .required {
+    color: red;
+}
+
+.feedback-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.feedback-form button:hover {
+    background-color: darkgreen;
+}
